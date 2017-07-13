@@ -1,0 +1,740 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gnupay-lguplus\n"
+"POT-Creation-Date: 2016-06-16 10:12+0900\n"
+"PO-Revision-Date: 2016-06-16 10:12+0900\n"
+"Last-Translator: \n"
+"Language-Team: SIR SOFT\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/admin_metabox.class.php:25
+msgid "PG 결재"
+msgstr ""
+
+#: classes/admin_metabox.class.php:72
+msgid "결제승인"
+msgstr ""
+
+#: classes/admin_metabox.class.php:76 template/order_detail.php:26
+msgid "테스트결제"
+msgstr ""
+
+#: classes/admin_metabox.class.php:76
+#: classes/lguplus_card_gateway.class.php:645
+msgid "실결제"
+msgstr ""
+
+#: classes/admin_metabox.class.php:78
+msgid "에스크로"
+msgstr ""
+
+#: classes/admin_metabox.class.php:83
+msgid "결제대행사 링크"
+msgstr ""
+
+#: classes/admin_metabox.class.php:87
+msgid "pg 거래번호"
+msgstr ""
+
+#: classes/admin_metabox.class.php:115 template/order_detail.php:141
+msgid "현금영수증"
+msgstr ""
+
+#: classes/admin_metabox.class.php:129
+msgid "현금영수증 확인"
+msgstr ""
+
+#: classes/admin_metabox.class.php:131 template/order_detail.php:156
+msgid "현금영수증 발급"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:13
+msgid "LGUPLUS 계좌이체"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:18
+msgid "LGUPLUS 계좌이체입니다."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:50
+#: classes/lguplus_card_gateway.class.php:576
+#: classes/lguplus_easypay.class.php:33 classes/lguplus_phonepay.class.php:50
+#: classes/lguplus_virtualaccount.class.php:55
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:52
+#: classes/lguplus_virtualaccount.class.php:57
+#, php-format
+msgid "%s 를 활성화합니다."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:56
+#: classes/lguplus_card_gateway.class.php:582
+#: classes/lguplus_easypay.class.php:39 classes/lguplus_phonepay.class.php:56
+#: classes/lguplus_virtualaccount.class.php:61
+msgid "Title"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:58
+#: classes/lguplus_card_gateway.class.php:584
+#: classes/lguplus_easypay.class.php:41 classes/lguplus_phonepay.class.php:58
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:63
+#: classes/lguplus_card_gateway.class.php:589
+#: classes/lguplus_easypay.class.php:46 classes/lguplus_phonepay.class.php:63
+#: classes/lguplus_virtualaccount.class.php:66
+msgid "Description"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:65
+#: classes/lguplus_card_gateway.class.php:591
+#: classes/lguplus_easypay.class.php:48 classes/lguplus_phonepay.class.php:65
+#: classes/lguplus_virtualaccount.class.php:68
+#, php-format
+msgid "%s 로 결제합니다."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:68
+#: classes/lguplus_card_gateway.class.php:594
+#: classes/lguplus_easypay.class.php:51 classes/lguplus_phonepay.class.php:68
+#: classes/lguplus_virtualaccount.class.php:71
+msgid "Instructions"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:70
+#: classes/lguplus_card_gateway.class.php:596
+#: classes/lguplus_easypay.class.php:53 classes/lguplus_phonepay.class.php:70
+#: classes/lguplus_virtualaccount.class.php:73
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:75
+#: classes/lguplus_accounttransfer.class.php:80
+#: classes/lguplus_card_gateway.class.php:673
+#: classes/lguplus_card_gateway.class.php:678
+#: classes/lguplus_easypay.class.php:58 classes/lguplus_easypay.class.php:63
+#: classes/lguplus_phonepay.class.php:75 classes/lguplus_phonepay.class.php:80
+msgid "사용자 결제 후 주문상태"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:76
+#: classes/lguplus_card_gateway.class.php:674
+#: classes/lguplus_easypay.class.php:59 classes/lguplus_phonepay.class.php:76
+msgid "LGUPLUS 결제시 사용자의 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:85
+#: classes/lguplus_card_gateway.class.php:683
+#: classes/lguplus_easypay.class.php:68 classes/lguplus_phonepay.class.php:85
+#: classes/lguplus_virtualaccount.class.php:88
+#: classes/lguplus_virtualaccount.class.php:102
+#: classes/lguplus_virtualaccount.class.php:116
+msgid "선택해 주세요."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:89
+#: classes/lguplus_accounttransfer.class.php:94
+#: classes/lguplus_card_gateway.class.php:687
+#: classes/lguplus_card_gateway.class.php:692
+#: classes/lguplus_easypay.class.php:72 classes/lguplus_easypay.class.php:77
+#: classes/lguplus_phonepay.class.php:89 classes/lguplus_phonepay.class.php:94
+msgid "주문취소 가능한 상태 ( 사용자 )"
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:90
+#: classes/lguplus_card_gateway.class.php:688
+#: classes/lguplus_easypay.class.php:73 classes/lguplus_phonepay.class.php:90
+msgid "LGUPLUS 결제시 사용자가 주문취소 할 수 있는 상태를 지정합니다."
+msgstr ""
+
+#: classes/lguplus_accounttransfer.class.php:99
+#: classes/lguplus_card_gateway.class.php:697
+#: classes/lguplus_easypay.class.php:82 classes/lguplus_phonepay.class.php:99
+msgid "주문취소 가능한 상태를 선택해 주세요."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:28
+#: classes/lguplus_card_gateway.class.php:585
+msgid "LGUPLUS 카드결제"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:35
+msgid "LGUPLUS 카드결제입니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:242
+msgid "환불요청사유를 입력해 주세요."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:335
+#, php-format
+msgid "%s 님이 %s, ( %s ) 이유로 가격 %s 를 취소하셨습니다. ( PG )"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:364
+msgid "pg 거래번호가 저장되지 않았거나 없습니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:389
+#, php-format
+msgid "%s 님의 요청으로 인해 %s 이 환불되었습니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:398
+msgid "결제 취소요청이 실패하였습니다.<br>"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:405
+msgid "알수 없는 이유로 부분 환불이 되지 않았습니다"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:495 lib/functions.php:216
+#, php-format
+msgid "%s 외 %d 건"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:570
+msgid "결제해 주셔서 감사합니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:578
+msgid "LGUPLUS 카드결제를 활성화합니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:601
+msgid "신용카드 무이자할부사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:604
+#: classes/lguplus_card_gateway.class.php:613
+msgid "사용안함"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:605
+#: classes/lguplus_card_gateway.class.php:614
+msgid "사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:607
+msgid ""
+"주문시 신용카드 무이자할부를 가능하게 할것인지를 설정합니다.<br>사용으로 설"
+"정하시면 PG사 가맹점 관리자 페이지에서 설정하신 무이자할부 설정이 적용됩니"
+"다.<br>사용안함으로 설정하시면 PG사 무이자 이벤트 카드를 제외한 모든 카드의 "
+"무이자 설정이 적용되지 않습니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:610
+msgid "현금영수증 발급사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:616
+msgid ""
+"관리자는 설정에 관계없이 주문 보기에서 발급이 가능합니다.<br>현금영수증 발"
+"급 취소는 PG사에서 지원하는 현금영수증 취소 기능을 사용하시기 바랍니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:619
+msgid "LG유플러스 상점아이디"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:621
+msgid ""
+"LG유플러스에서 받은 si_ 로 시작하는 상점 ID를 입력하세요.( 영문자, 숫자 혼"
+"용 )<br>만약, 상점 ID가 si_로 시작하지 않는다면 LG유플러스에 사이트코드 변"
+"경 요청을 하십시오. 예) si_lguplus"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:624
+msgid "LG유플러스 MERT KEY"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:626
+msgid ""
+"LG유플러스 상점MertKey는 상점관리자 -> 계약정보 -> 상점정보관리에서 확인하"
+"실 수 있습니다.<br>예) 95160cce09854ef44d2edb2bfb05f9f3"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:629
+msgid "MERT KEY 를 입력해주세요."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:633
+msgid "에스크로 사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:636
+msgid "일반결제 사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:637
+msgid "에스크로결제 사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:639
+msgid ""
+"에스크로 결제를 사용하시려면, 반드시 결제대행사 상점 관리자 페이지에서 에스"
+"크로 서비스를 신청하신 후 사용하셔야 합니다.<br>에스크로 사용시 배송과의 연"
+"동은 되지 않으며 에스크로 결제만 지원됩니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:642
+msgid "결제테스트"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:646
+msgid "테스트 결제"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:649
+msgid "신용카드를 테스트 하실 경우에 체크하세요. 결제단위 최소 1,000원"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:652
+msgid "복합과세 결제"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:654
+msgid "복합결제 사용"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:656
+msgid ""
+"복합과세(과세, 비과세) 결제를 사용하려면 체크하십시오.<br >( 우커머스 -> 설"
+"정 -> 세금 옵션 -> 세금 활성화 도 같이 체크되어야 합니다. )<br>복합과세 결제"
+"를 사용하기 전 PG사에 별도로 결제 신청을 해주셔야 합니다. 사용시 PG사로 문의"
+"하여 주시기 바랍니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:659
+#: classes/lguplus_card_gateway.class.php:664
+msgid "환불 후 주문상태"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:660
+msgid "환불 후 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:669
+msgid "환불 후 주문상태를 선택해 주세요."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:738
+msgid "LG유플러스 서비스신청하기"
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:837
+msgid "상점 키파일은 SIR로 시작되는 파일만 업로드 할수 있습니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:849
+msgid "업로드 폴더에 쓰기 권한이 없습니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:856
+msgid "호환되지 않는 압축파일 입니다."
+msgstr ""
+
+#: classes/lguplus_card_gateway.class.php:861
+msgid "키 파일이 잘못되었습니다."
+msgstr ""
+
+#: classes/lguplus_easypay.class.php:13
+msgid "LGUPLUS 간편결제"
+msgstr ""
+
+#: classes/lguplus_easypay.class.php:18
+msgid "LGUPLUS 간편결제입니다."
+msgstr ""
+
+#: classes/lguplus_easypay.class.php:35 classes/lguplus_phonepay.class.php:52
+#, php-format
+msgid "%s 를 출력합니다."
+msgstr ""
+
+#: classes/lguplus_phonepay.class.php:13
+msgid "LGUPLUS 휴대폰결제"
+msgstr ""
+
+#: classes/lguplus_phonepay.class.php:18
+msgid "LGUPLUS 휴대폰결제입니다."
+msgstr ""
+
+#: classes/lguplus_tax.class.php:34
+msgid "권한이 없습니다."
+msgstr ""
+
+#: classes/lguplus_tax.class.php:44
+msgid "주문서가 존재하지 않습니다."
+msgstr ""
+
+#: classes/lguplus_tax.class.php:84
+#, php-format
+msgid "주문번호 %s 현금영수증 발행"
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:26
+msgid "환불요청할수 있는 권한이 없습니다."
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:31
+msgid "환불된 내역이 있기 때문에 사용자가 취소할수 없습니다."
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:42
+msgid "사용자 주문 취소"
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:47 lgu/pay_success_common.php:27
+msgid "비회원"
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:53
+#, php-format
+msgid "%s 님이 요청한 환불 오류 메시지 : %s"
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:58
+#, php-format
+msgid "환불요청오류 : %s"
+msgstr ""
+
+#: classes/lguplus_user_cancel.class.php:61
+#: classes/lguplus_user_cancel.class.php:63
+msgid "알수 없는 이유로 환불 오류가 발생했습니다."
+msgstr ""
+
+#: classes/lguplus_user_order_details.class.php:46
+#: classes/lguplus_user_order_details.class.php:53
+msgid "승인번호"
+msgstr ""
+
+#: classes/lguplus_user_order_details.class.php:60
+msgid "휴대폰번호"
+msgstr ""
+
+#: classes/lguplus_user_order_details.class.php:67
+msgid "거래번호"
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:20
+msgid "LGUPLUS 가상계좌"
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:78
+#: classes/lguplus_virtualaccount.class.php:83
+msgid "가상계좌 입금 요청전 주문상태"
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:79
+msgid "LGUPLUS 가상계좌 입금 요청전 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:92
+msgid "가상계좌 입금 후 주문상태"
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:93
+msgid "가상계좌 입금 후 주문상태를 지정합니다."
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:97
+#: classes/lguplus_virtualaccount.class.php:111
+msgid "가상계좌 입금 후 주문상태 주문상태"
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:106
+msgid "가상계좌 입금 기간 설정"
+msgstr ""
+
+#: classes/lguplus_virtualaccount.class.php:107
+msgid "가상계좌 입금 기간을 설정합니다."
+msgstr ""
+
+#: gnupay_lguplus.php:212
+msgid ""
+"그누페이 LGUPLUS 플러그인은 우커머스 플러그인을 활성화를 필요로 합니다."
+msgstr ""
+
+#: gnupay_lguplus.php:243
+msgid "그누페이 LGUPLUS 설정"
+msgstr ""
+
+#: gnupay_lguplus.php:243
+msgid "설정"
+msgstr ""
+
+#: lgu/actionpay.php:11
+msgid "주문번호 값이 없습니다."
+msgstr ""
+
+#: lgu/actionpay.php:60
+msgid "주문번호 값과 LGU+ 결제 설정값이 맞지 않습니다."
+msgstr ""
+
+#: lgu/actionpay.php:68
+msgid "해당 주문번호가 LGUPLUS 결제로 등록되지 않았습니다."
+msgstr ""
+
+#: lgu/actionpay.php:134
+msgid "결제금액 불일치"
+msgstr ""
+
+#: lgu/m_returnurl.php:19 lgu/xpay_approval.php:146
+msgid "LG유플러스 eCredit 서비스 결제"
+msgstr ""
+
+#: lgu/m_returnurl.php:60 lib/functions.php:449
+msgid "주문완료 중입니다. 잠시만 기다려 주십시오."
+msgstr ""
+
+#: lgu/note_url.php:133
+msgid "결제결과 상점 DB처리(NOTE_URL) 결과값을 입력해 주시기 바랍니다."
+msgstr ""
+
+#: lgu/note_url.php:155
+msgid "결제결과 상점 DB처리(NOTE_URL) 해쉬값 검증이 실패하였습니다."
+msgstr ""
+
+#: lgu/pay_success_common.php:20
+msgid "Awaiting process payment"
+msgstr ""
+
+#: lgu/pay_success_common.php:32
+#, php-format
+msgid "모바일 noti %s 가격 %s 결제 하였습니다."
+msgstr ""
+
+#: lgu/pay_success_common.php:41
+#, php-format
+msgid "%s 님이 %s로 주문하였습니다."
+msgstr ""
+
+#: lgu/pay_success_common.php:49
+#, php-format
+msgid "%s 님이 %s 가격 %s 결제 하였습니다."
+msgstr ""
+
+#: lgu/returnurl.php:11
+msgid "세션이 만료 되었거나 유효하지 않은 요청 입니다."
+msgstr ""
+
+#: lgu/settle_lg_common.php:78
+msgid "결제결과 상점 DB처리(LGD_CASNOTEURL) 결과값을 입력해 주시기 바랍니다."
+msgstr ""
+
+#: lgu/settle_lg_common.php:109
+msgid "해당 주문번호랑 틀린 잘못된 pg 요청이 들어왔습니다."
+msgstr ""
+
+#: lgu/settle_lg_common.php:114
+#, php-format
+msgid "가상계좌에 금액 %s 이 입금 되었습니다."
+msgstr ""
+
+#: lgu/settle_lg_common.php:139
+msgid "결제결과 상점 DB처리(LGD_CASNOTEURL) 해쉬값 검증이 실패하였습니다."
+msgstr ""
+
+#: lib/functions.php:27
+msgid "올바른 방법으로 이용해 주십시오."
+msgstr ""
+
+#: template/order_detail.php:20
+msgid "결제정보"
+msgstr ""
+
+#: template/order_detail.php:29
+msgid "해당 결제건은 테스트로 결제되었습니다.( 실결제가 아닙니다. )"
+msgstr ""
+
+#: template/order_detail.php:43
+msgid "결제금액"
+msgstr ""
+
+#: template/order_detail.php:49
+msgid "아직 입금되지 않았거나 입금정보를 입력하지 못하였습니다."
+msgstr ""
+
+#: template/order_detail.php:57
+msgid "입금처리된시간"
+msgstr ""
+
+#: template/order_detail.php:65
+msgid "입금은행"
+msgstr ""
+
+#: template/order_detail.php:71
+msgid "입금자명"
+msgstr ""
+
+#: template/order_detail.php:77
+msgid "입금계좌"
+msgstr ""
+
+#: template/order_detail.php:85
+msgid "영수증"
+msgstr ""
+
+#: template/order_detail.php:98 template/order_detail.php:110
+msgid "영수증 출력"
+msgstr ""
+
+#: template/order_detail.php:154
+msgid "현금영수증 확인하기"
+msgstr ""
+
+#: template/tax_result.php:21
+msgid "현금영수증은 가상계좌, 계좌이체에 한해 발급요청이 가능합니다."
+msgstr ""
+
+#: template/tax_result.php:28
+msgid "이미 등록된 현금영수증 입니다."
+msgstr ""
+
+#: template/tax_result.php:174
+msgid "현금영수증 취소 요청처리가 정상적으로 완료되지 않았습니다."
+msgstr ""
+
+#: template/tax_result.php:176
+msgid "쇼핑몰 관리자에게 문의해 주십시오."
+msgstr ""
+
+#: template/tax_result.php:191
+msgid "현금영수증 발급 요청처리가 정상적으로 완료되지 않았습니다."
+msgstr ""
+
+#: template/tax_result.php:220
+msgid "현금영수증 - LGUPLUS"
+msgstr ""
+
+#: template/tax_result.php:230
+msgid "결과코드"
+msgstr ""
+
+#: template/tax_result.php:234
+msgid "결과 메세지"
+msgstr ""
+
+#: template/tax_result.php:238
+msgid "현금영수증 거래번호"
+msgstr ""
+
+#: template/tax_result.php:242
+msgid ">현금영수증 승인번호"
+msgstr ""
+
+#: template/tax_result.php:246
+msgid "승인시간"
+msgstr ""
+
+#: template/tax_result.php:250
+msgid "현금영수증 URL"
+msgstr ""
+
+#: template/tax_result.php:252
+msgid "영수증 확인"
+msgstr ""
+
+#: template/tax_result.php:253
+msgid "영수증 확인은 실 등록의 경우에만 가능합니다."
+msgstr ""
+
+#: template/taxsave_form.php:86
+msgid "주문정보"
+msgstr ""
+
+#: template/taxsave_form.php:96
+msgid "주문 번호"
+msgstr ""
+
+#: template/taxsave_form.php:100
+msgid "상품 정보"
+msgstr ""
+
+#: template/taxsave_form.php:104
+msgid "주문자 이름"
+msgstr ""
+
+#: template/taxsave_form.php:108
+msgid "주문자 E-Mail"
+msgstr ""
+
+#: template/taxsave_form.php:112
+msgid "주문자 전화번호"
+msgstr ""
+
+#: template/taxsave_form.php:121
+msgid "현금영수증 발급 정보"
+msgstr ""
+
+#: template/taxsave_form.php:137
+msgid "원 거래 시각"
+msgstr ""
+
+#: template/taxsave_form.php:141
+msgid "발행 용도"
+msgstr ""
+
+#: template/taxsave_form.php:144
+msgid "소득공제용"
+msgstr ""
+
+#: template/taxsave_form.php:146
+msgid "지출증빙용"
+msgstr ""
+
+#: template/taxsave_form.php:152
+msgid "주민(휴대폰)번호"
+msgstr ""
+
+#: template/taxsave_form.php:153
+msgid "사업자번호"
+msgstr ""
+
+#: template/taxsave_form.php:157
+msgid "(\"-\" 생략)"
+msgstr ""
+
+#: template/taxsave_form.php:161
+msgid "이메일"
+msgstr ""
+
+#: template/taxsave_form.php:165
+msgid "휴대폰"
+msgstr ""
+
+#: template/taxsave_form.php:169
+msgid "거래금액 총합"
+msgstr ""
+
+#: template/taxsave_form.php:173
+msgid "공급가액"
+msgstr ""
+
+#: template/taxsave_form.php:177
+msgid "봉사료"
+msgstr ""
+
+#: template/taxsave_form.php:181
+msgid "부가가치세"
+msgstr ""
+
+#: template/taxsave_form.php:190
+msgid "등록요청"
+msgstr ""
+
+#: template/taxsave_form.php:193
+msgid "등록 진행중입니다. 잠시만 기다려주십시오"
+msgstr ""

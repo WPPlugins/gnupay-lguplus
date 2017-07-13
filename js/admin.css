@@ -1,0 +1,23 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+.gp_lguplus_admin table {
+margin: 0;
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0;
+}
+/* Zebra striping */
+.gp_lguplus_admin tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+.gp_lguplus_admin th {}
+.gp_lguplus_admin td,
+.gp_lguplus_admin th { 
+padding: 3px; 
+border: 1px solid #ccc; 
+text-align: left;
+word-break:break-all;
+width:auto;
+margin: 0;
+}
